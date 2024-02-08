@@ -33,8 +33,8 @@ Pour déployer l'application en local sur votre ordinateur, suivez les instructi
 
 1. Clonez le dépôt sur votre machine locale.
 2. Installez les dépendances nécessaires en utilisant la commande suivante :
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 3. Lancez l'application en utilisant la commande suivante :
-streamlit run app.py
+```streamlit run app.py```
 
 

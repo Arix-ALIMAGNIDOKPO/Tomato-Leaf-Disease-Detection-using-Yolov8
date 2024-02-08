@@ -5,13 +5,10 @@ from ultralytics import YOLO
 model = YOLO('yolov8n.yaml')
 model = YOLO('best.pt')
 
-# Définir les classes
-classes = ['Bacterial Spot (Tache bactérienne)', 'Early Blight (Alternariose)', 'Healthy (Sain)', 'Iron Deficiency (Carence en fer)', 'Late Blight (Mildiou)', 'Leaf Mold (Moisissure des feuilles)', 'Leaf Miner (Mineuse)', 'Mosaic Virus (Virus mosaïque)', 'Septoria (Septoriose)', 'Spider Mites (Tétranyques)', 'Yellow Leaf Curl Virus (Virus des feuilles jaunes en cuillère de la tomate)']
-
 st.title("Détection de maladies des feuilles de tomates")
 st.markdown("""
-Ce projet est une application web pour la détection des maladies courantes des feuilles de tomates. Il utilise le modèle YOLO (You Only Look Once) pour la détection d'objets. Le modèle a été formé sur un ensemble de données spécifique comprenant différentes classes de maladies des feuilles de tomates. Les classes du modèle sont les suivantes :
-""" + ', '.join(classes) )
+*Ce projet est une application web pour la détection des maladies courantes des feuilles de tomates. Il utilise le modèle YOLO (You Only Look Once) pour la détection d'objets. Le modèle a été formé sur un ensemble de données spécifique comprenant différentes classes de maladies des feuilles de tomates. Les classes du modèle sont les suivantes :
+Bacterial Spot (Tache bactérienne), Early Blight (Alternariose), Healthy (Sain), Iron Deficiency (Carence en fer), Late Blight (Mildiou), Leaf Mold (Moisissure des feuilles), Leaf Miner (Mineuse), Mosaic Virus (Virus mosaïque), Septoria (Septoriose), Spider Mites (Tétranyques), Yellow Leaf Curl Virus (Virus des feuilles jaunes en cuillère de la tomate).*""")
 
 uploaded_file = st.file_uploader("Choisissez une image de feuille de tomate", type=["jpg", "png"])
 

@@ -8,7 +8,7 @@ L'objectif de ce projet est de fournir une plateforme qui peut prédire avec pr�
 
 ## 📚 Dataset
 
-Le modèle a été formé sur un ensemble de données spécifique comprenant différentes classes de maladies des feuilles de tomates. Vous pouvez trouver le dataset ici.
+Le modèle a été formé sur un ensemble de données spécifique comprenant différentes classes de maladies des feuilles de tomates. Vous pouvez trouver le dataset https://universe.roboflow.com/universitas-atma-jaya/tomato-leaf-disease-rxcft.
 
 ## 🏷️ Classes du Modèle
 

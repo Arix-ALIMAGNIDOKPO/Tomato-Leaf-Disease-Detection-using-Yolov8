@@ -1,4 +1,4 @@
+flask
 streamlit
 Pillow
-ultralytics==8.1.9
-opencv-python-headless 
+ultralytics
